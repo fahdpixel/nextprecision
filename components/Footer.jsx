@@ -19,22 +19,42 @@ const Footer = () => {
             width={150}
             height={150}
             alt="Footer Logo"
-            style={{alignSelf:"flex-start"}}
+            style={{ alignSelf: "flex-start" }}
           />
           <div>
             <div className="lg:mt-0 mt-4 flex flex-col md:flex-row md:justify-end gap-4 lg:gap-12 font-sans text-sm md:text-lg font-normal">
-              <p className="cursor-pointer">Home</p>
-              <p className="cursor-pointer">Who We Are</p>
-              <p className="cursor-pointer">Why Choose Us</p>
-              <p className="cursor-pointer">What We Do</p>
-              <p className="cursor-pointer">Gallery</p>
-              <p className="cursor-pointer">Reach</p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                Home
+              </p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                Who We Are
+              </p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                Why Choose Us
+              </p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                What We Do
+              </p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                Gallery
+              </p>
+              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+                Reach
+              </p>
             </div>
-            <div className="opacity-50 mt-6 flex flex-col md:justify-end md:flex-row  gap-4 lg:gap-12 font-sans text-xs md:text-sm font-thin">
-              <p className="cursor-pointer">Blogs</p>
-              <p className="cursor-pointer">Testimonials</p>
-              <p className="cursor-pointer">Careers</p>
-              <p className="cursor-pointer">Privacy Policy</p>
+            <div className="mt-6 flex flex-col md:justify-end md:flex-row  gap-4 lg:gap-12 font-sans text-xs md:text-sm font-thin">
+              <p className="cursor-pointer  text-white/[0.5] hover:text-white">
+                Blogs
+              </p>
+              <p className="cursor-pointer  text-white/[0.5] hover:text-white">
+                Testimonials
+              </p>
+              <p className="cursor-pointer  text-white/[0.5] hover:text-white">
+                Careers
+              </p>
+              <p className="cursor-pointer  text-white/[0.5] hover:text-white">
+                Privacy Policy
+              </p>
             </div>
             <div className="flex gap-4 my-6 md:justify-end">
               <div className="w-8 h-8 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
@@ -53,7 +73,7 @@ const Footer = () => {
             </div>
             <div className="flex md:justify-end font-light items-center gap-4 cursor-pointer">
               <p>+91 9841 00 1213</p>
-              <FaPhone size={16} className="rotate-90"/>
+              <FaPhone size={16} className="rotate-90" />
             </div>
           </div>
         </div>
