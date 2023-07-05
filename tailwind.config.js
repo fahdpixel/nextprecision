@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      body: ['"DM Sans"', '"Playfair Display"', '"Montserrat"'],
+      sans: ['"DM Sans"'],
+      mont:['Montserrat'],
+      playfair: ['"Playfair Display"']
     },
   },
   plugins: [],
