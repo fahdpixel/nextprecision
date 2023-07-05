@@ -1,6 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.player-wrapper {
+  position: relative;
+}
+.react-player {
+  position: absolute;
+  top: -250px;
+  left: 0;
+  height: 200px !important;
+}
+
+@media (min-width: 1240px) {
+  .player-wrapper {
+    position: relative;
+    padding-top: 33%;
+  }
+  .react-player {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    height: 600px !important;
+  }
+}

@@ -50,7 +50,7 @@ const HomeBanner = () => {
           }}
         />
       </div>
-      <div className="absolute z-10 top-5 right-5 lg:top-10 lg:right-20 text-gray-100 text-2xl md:text-3xl">
+      <div className="absolute z-10 top-5 right-5 lg:top-10 lg:right-20 text-gray-100 text-2xl md:text-4xl font-thin">
         <button>
           <CgMenuRightAlt />
         </button>
