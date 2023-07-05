@@ -63,7 +63,7 @@ const HomeBanner = () => {
           <button className="mt-4 xl:mt-8 text-md lg:text-xl font-medium font-sans rounded-full border-2 border-pink-600 hover:bg-pink-600 hover:scale-105 px-6 py-2 capitalize ease-in-out duration-300">
             Plan Your Next Event with us
           </button>
-          <div className="cursor-pointer">
+          <div >
             <Image
               src="/scrollbanner.png"
               width={32}
@@ -75,8 +75,9 @@ const HomeBanner = () => {
                 marginRight: "auto",
                 left: "0",
                 right: "0",
-                marginTop: "20px",
+                marginTop: "30px",
               }}
+              className="animate-bounce"
             />
           </div>
         </div>
