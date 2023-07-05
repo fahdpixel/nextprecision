@@ -22,13 +22,13 @@ const ServiceDetails = () => {
         <h2 className="py-5 font-playfair font-semibold text-4xl text-white text-center mb-4">
           Our Services
         </h2>
-        <div className="grid grid-cols-4 text-white font-sans">
+        <div className="grid grid-cols-1 md:grid-cols-4 text-white font-sans">
           <div className="bg-[#9747FF] flex flex-col">
             <h3 className="p-4 font-medium text-xl">Corporate Events</h3>
             <Image
               src="/service-1.png"
-              width={400}
-              height={400}
+              width={600}
+              height={600}
               alt="Picture of Service"
             />
             <Button className="m-4 self-start border-pink-600 hover:bg-pink-600">Know More</Button>
@@ -37,8 +37,8 @@ const ServiceDetails = () => {
             <h3 className="p-4 font-medium text-xl">Virtual & Hybrid Events</h3>
             <Image
               src="/service-2.png"
-              width={400}
-              height={400}
+              width={600}
+              height={600}
               alt="Picture of Service"
             />
             <Button className="m-4 self-start border-blue-900 hover:bg-blue-900" >Know More</Button>
@@ -47,8 +47,8 @@ const ServiceDetails = () => {
             <h3 className="p-4 font-medium text-xl">MICE</h3>
             <Image
               src="/service-3.png"
-              width={400}
-              height={400}
+              width={600}
+              height={600}
               alt="Picture of Service"
             />
            <Button className="m-4 self-start border-pink-600 hover:bg-pink-600">Know More</Button>
@@ -57,8 +57,8 @@ const ServiceDetails = () => {
             <h3 className="p-4 font-medium text-xl">Medical Conferences</h3>
             <Image
               src="/service-4.png"
-              width={400}
-              height={400}
+              width={600}
+              height={600}
               alt="Picture of Service"
             />
            <Button className="m-4 self-start border-pink-600 hover:bg-pink-600">Know More</Button>
