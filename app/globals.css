@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* React Player Styles */
+
 .player-wrapper {
   position: relative;
 }
@@ -25,4 +27,43 @@
     left: 0;
     height: 600px !important;
   }
+}
+
+/* Slider Styles */
+.slick-dots {
+  bottom: 40px !important;
+}
+
+.slick-dots li {
+  text-align: center;
+  margin: 0px !important;
+  width: 115px !important;
+  height: 7px !important;
+  transition: all 0.3s ease;
+}
+
+.slick-dots li.slick-active {
+  width: 200px !important;
+  transition: all 0.3s ease;
+}
+
+.slick-dots li button {
+  padding: 0px !important;
+  background: rgba(255, 239, 239, 0.3) !important;
+  width: 100px !important;
+  height: 4px !important;
+  border-radius: 10px !important;
+  opacity: 1 !important;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.slick-dots li button:before {
+  display: none !important;
+}
+
+.slick-dots li.slick-active button {
+  width: 150px !important;
+  background: white !important;
+  transition: all 0.3s ease;
 }

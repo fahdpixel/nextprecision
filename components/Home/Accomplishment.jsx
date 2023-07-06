@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "@/components/Wrapper";
 import Image from "next/image";
+import Button from "../Button";
 
 const Accomplishment = () => {
   return (
@@ -21,9 +22,7 @@ const Accomplishment = () => {
               hosting of corporate, virtual/ hybrid, weddings, parties, product
               launches, and other events to the utmost satisfaction of clients.
             </p>
-            <button className="mt-4 md:mt-8 rounded-full border-2 border-pink-600 hover:bg-pink-600 hover:scale-105 px-6 py-2 capitalize ease-in-out duration-300 self-baseline font-sans hover:text-white">
-              Read More
-            </button>
+            <Button className="mt-4 md:mt-8 hover:bg-pink-600 w-32 text-[#293462] font-medium hover:text-white" spanColor="bg-pink-600">Read More</Button>
           </div>
           <div className="flex justify-center relative">
             <Image
