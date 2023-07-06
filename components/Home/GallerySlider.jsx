@@ -21,7 +21,7 @@ const GallerySlider = () => {
   };
   return (
     <div>
-      <h4 className="text-2xl md:text-4xl font-extrabold text-center font-playfair mb-4">
+      <h4 className="text-3xl md:text-5xl font-extrabold text-center font-playfair mb-4">
         Get a Glimpse of Our Works
       </h4>
       <div className="flex justify-center mb-6">

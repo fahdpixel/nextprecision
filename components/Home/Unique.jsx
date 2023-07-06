@@ -5,7 +5,7 @@ import Wrapper from "@/components/Wrapper";
 const Unique = () => {
   return (
     <Wrapper className="my-6 md:my-20">
-      <h3 className="text-2xl md:text-4xl font-extrabold text-center font-playfair mb-4">
+      <h3 className="text-3xl md:text-5xl font-extrabold text-center font-playfair mb-12">
         How Are We Different?
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 font-sans mt-4 md:mt-8">

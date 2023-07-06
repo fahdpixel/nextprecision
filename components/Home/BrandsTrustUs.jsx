@@ -4,7 +4,7 @@ import React from "react";
 const BrandsTrustUs = () => {
   return (
     <div className="bg-[#00187B] mt-[-10px]">
-      <h5 className="text-2xl md:text-4xl font-extrabold font-playfair text-center text-white pt-8 md:pt-16">
+      <h5 className="text-3xl md:text-5xl font-extrabold font-playfair text-center text-white pt-8 md:pt-16">
         Trusted By Brands Across the Nation
       </h5>
       <div className="flex justify-center items-center py-10 md:py-20 ">

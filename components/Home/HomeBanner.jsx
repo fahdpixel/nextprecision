@@ -58,12 +58,12 @@ const HomeBanner = () => {
       </div>
       <div className="relative z-10 mr-auto ml-auto w-11/12 ">
         <div className="absolute text-white inset-x-0 top-[450px] xl:top-[500px] text-center ">
-          <p className="text-xl font-bold lg:text-5xl font-playfair">
+          <p className="text-3xl md:text-5xl font-bold font-playfair">
             Making Every Event a Celebration!
           </p>
-          <div className="text-center flex justify-center">
+          <div className="text-center flex justify-center items-center">
             <Button
-              className="text-center mt-4 xl:mt-8 text-md lg:text-xl font-medium font-sans hover:bg-pink-600 w-[320px]"
+              className="text-center mt-4 xl:mt-8 text-md lg:text-xl font-medium font-sans hover:bg-pink-600 w-[250px] md:w-[320px]"
               spanColor="bg-pink-600"
             >
               Plan Your Next Event with us

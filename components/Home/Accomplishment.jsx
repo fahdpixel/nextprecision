@@ -9,7 +9,7 @@ const Accomplishment = () => {
       <Wrapper className="my-6 md:my-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div className="flex flex-col">
-            <h1 className="text-4xl md:text-5xl font-semibold font-playfair">
+            <h1 className="text-3xl md:text-5xl font-extrabold font-playfair">
               Creating Bespoke Experiences Worldwide
             </h1>
             <p className="mt-4 md:mt-8 font-sans">
