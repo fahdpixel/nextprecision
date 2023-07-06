@@ -1,9 +1,19 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
-import { CgMenuRightAlt } from "react-icons/cg";
+import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import Button from "../Button";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaYoutube,
+  FaInstagram,
+} from "react-icons/fa";
 
 const HomeBanner = () => {
+  const [menu, setMenu] = useState(false);
+
   return (
     <div className="relative h-screen">
       <Image
@@ -53,7 +63,7 @@ const HomeBanner = () => {
       </div>
       <div className="absolute z-10 top-5 right-5 lg:top-10 lg:right-20 text-gray-100 text-2xl md:text-4xl font-thin">
         <button>
-          <CgMenuRightAlt />
+          <CgMenuRightAlt onClick={() => setMenu((prev) => !prev)} />
         </button>
       </div>
       <div className="relative z-10 mr-auto ml-auto w-11/12 ">
@@ -85,6 +95,73 @@ const HomeBanner = () => {
               }}
               className="animate-bounce"
             />
+          </div>
+        </div>
+      </div>
+      <div className={`flex flex-row absolute z-20 h-screen w-full ${menu ? "flex": "hidden"}`}>
+        <CgClose
+          className="absolute top-5 right-5 lg:top-10 lg:right-20 text-2xl md:text-4xl text-white cursor-pointer"
+          onClick={() => setMenu((prev) => !prev)}
+        />
+        <Image
+          src="/menuimage.png"
+          width={750}
+          height={750}
+          alt="Picture Of Menu"
+          className="hidden md:flex"
+        />
+        <div className="bg-[#001D96] w-full flex flex-col items-center gap-4 md:gap-8">
+          <Image
+            src="/logo.png"
+            width={160}
+            height={160}
+            alt="Picture Of Logo"
+            className="mt-16 mb-6"
+          />
+          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+            Home
+          </p>
+          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+            Who We Are
+          </p>
+          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+            What We Do
+          </p>
+          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+            Why Choose Us
+          </p>
+
+          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+            Gallery
+          </p>
+          <div className="flex flex-col items-center md:flex-row text-lg md:gap-8 my-4">
+            <p className="cursor-pointer  text-white hover:text-white/[0.5]">
+              Blogs
+            </p>
+            <p className="cursor-pointer  text-white hover:text-white/[0.5]">
+              Testimonials
+            </p>
+            <p className="cursor-pointer  text-white hover:text-white/[0.5]">
+              Careers
+            </p>
+            <p className="cursor-pointer  text-white hover:text-white/[0.5]">
+              Privacy Policy
+            </p>
+          </div>
+          <div className="flex gap-4">
+            <div className="w-8 h-8 rounded-full border-2 flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
+              <FaFacebookF size={16} />
+            </div>
+            <div className="w-8 h-8 rounded-full border-2 flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
+              <FaInstagram size={16} />
+            </div>
+
+            <div className="w-8 h-8 rounded-full border-2 flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
+              <FaYoutube size={16} />
+            </div>
+            <div className="w-8 h-8 rounded-full border-2 flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
+              <FaLinkedinIn size={16} />
+            </div>
           </div>
         </div>
       </div>
