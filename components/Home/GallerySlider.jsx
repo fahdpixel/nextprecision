@@ -40,12 +40,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -59,12 +59,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -78,12 +78,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -97,12 +97,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -116,12 +116,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -135,12 +135,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -154,31 +154,12 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
-              spanColor="bg-pink-600"
-            >
-              View Gallery
-            </Button>
-          </div>
-        </div>{" "}
-        <div className="relative">
-          <Image
-            src="/sliderimage.png"
-            width={1600}
-            height={700}
-            alt="Picture of Slider"
-          />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
-              Corporate Events
-            </p>
-            <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery
@@ -192,12 +173,50 @@ const GallerySlider = () => {
             height={700}
             alt="Picture of Slider"
           />
-          <div className="px-40 absolute z-10 bottom-[70px] flex items-center justify-between w-full">
-            <p className="text-white font-playfair font-extrabold text-4xl">
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
               Corporate Events
             </p>
             <Button
-              className="m-4 self-start hover:bg-pink-600 w-36 text-white font-medium"
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
+              spanColor="bg-pink-600"
+            >
+              View Gallery
+            </Button>
+          </div>
+        </div>
+        <div className="relative">
+          <Image
+            src="/sliderimage.png"
+            width={1600}
+            height={700}
+            alt="Picture of Slider"
+          />
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
+              Corporate Events
+            </p>
+            <Button
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
+              spanColor="bg-pink-600"
+            >
+              View Gallery
+            </Button>
+          </div>
+        </div>
+        <div className="relative">
+          <Image
+            src="/sliderimage.png"
+            width={1600}
+            height={700}
+            alt="Picture of Slider"
+          />
+          <div className="px-10 md:px-40 absolute z-10 bottom-10 md:bottom-[70px] flex items-center justify-between gap-1 w-full">
+            <p className="text-white font-playfair font-extrabold text-base md:text-4xl ">
+              Corporate Events
+            </p>
+            <Button
+              className="m-2 md:m-4 hover:bg-pink-600 w-36 text-white font-medium"
               spanColor="bg-pink-600"
             >
               View Gallery

@@ -1,5 +1,6 @@
 // "use client";
 import Accomplishment from "@/components/Home/Accomplishment";
+import BrandsTrustUs from "@/components/Home/BrandsTrustUs";
 import GallerySlider from "@/components/Home/GallerySlider";
 import HomeBanner from "@/components/Home/HomeBanner";
 import ServiceDetails from "@/components/Home/ServiceDetails";
@@ -13,6 +14,7 @@ export default function Home() {
       <ServiceDetails />
       <Unique />
       <GallerySlider />
+      <BrandsTrustUs/>
     </main>
   );
 }
