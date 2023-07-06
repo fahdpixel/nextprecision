@@ -19,7 +19,7 @@ const ServiceDetails = () => {
         </div>
       </Wrapper>
       <div>
-        <h2 className="py-5 font-playfair font-extrabold text-3xl md:text-5xl text-white text-center mb-12">
+        <h2 className="py-5 font-playfair font-extrabold text-3xl md:text-5xl text-white text-center mb-2 md:mb-12">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 text-white font-sans">
