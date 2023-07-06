@@ -1,3 +1,4 @@
+// "use client";
 import Accomplishment from "@/components/Home/Accomplishment";
 import BrandsTrustUs from "@/components/Home/BrandsTrustUs";
 import GallerySlider from "@/components/Home/GallerySlider";

@@ -54,7 +54,7 @@ const FormToPlan = () => {
               className=" m-2 md:m-4 hover:bg-[#FC2947] w-32 md:w-36 text-[#293462] font-medium md:text-xl"
               spanColor="bg-[#FC2947]"
             >
-              Let's Plan
+              {"Let's Plan"}
             </Button>
           </div>
         </form>
