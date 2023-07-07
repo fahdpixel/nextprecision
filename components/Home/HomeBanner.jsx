@@ -10,6 +10,7 @@ import {
   FaYoutube,
   FaInstagram,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const HomeBanner = ({ image, button, headtext, location, scrollCursor }) => {
   const [menu, setMenu] = useState(false);
@@ -135,12 +136,12 @@ const HomeBanner = ({ image, button, headtext, location, scrollCursor }) => {
             alt="Picture Of Logo"
             className="mt-16 mb-6"
           />
-          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+          <Link href="/" className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
             Home
-          </p>
-          <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+          </Link>
+          <Link href="/WhoWeAre" className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
             Who We Are
-          </p>
+          </Link>
           <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
             What We Do
           </p>

@@ -8,6 +8,8 @@ import {
   FaInstagram,
   FaPhone,
 } from "react-icons/fa";
+import Link from "next/link";
+
 
 const Footer = () => {
   return (
@@ -23,12 +25,12 @@ const Footer = () => {
           />
           <div>
             <div className="lg:mt-0 mt-4 flex flex-col md:flex-row md:justify-end gap-4 lg:gap-12 font-sans text-sm md:text-lg font-normal">
-              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+              <Link href="/" className="cursor-pointer  hover:text-white/[0.5] text-white">
                 Home
-              </p>
-              <p className="cursor-pointer  hover:text-white/[0.5] text-white">
+              </Link>
+              <Link href="/WhoWeAre" className="cursor-pointer  hover:text-white/[0.5] text-white">
                 Who We Are
-              </p>
+              </Link>
               <p className="cursor-pointer  hover:text-white/[0.5] text-white">
                 Why Choose Us
               </p>
