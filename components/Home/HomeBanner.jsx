@@ -11,13 +11,13 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-const HomeBanner = () => {
+const HomeBanner = ({ image, button, headtext, location, scrollCursor }) => {
   const [menu, setMenu] = useState(false);
 
   return (
     <div className="relative h-screen">
       <Image
-        src="/homebanner.png"
+        src={image}
         width={1800}
         height={500}
         alt="Picture of Banner"
@@ -25,7 +25,7 @@ const HomeBanner = () => {
         style={{ position: "absolute", height: "100vh", objectFit: "cover" }}
       />
       <Image
-        src="/homebanneroverlay.png"
+        src="/blackoverlay.png"
         width={1800}
         height={500}
         alt="Picture of Banner Overlay"
@@ -68,37 +68,54 @@ const HomeBanner = () => {
       </div>
       <div className="relative z-10 mr-auto ml-auto w-11/12 ">
         <div className="absolute text-white inset-x-0 top-[450px] xl:top-[500px] text-center ">
-          <p className="text-3xl md:text-5xl font-bold font-playfair">
-            Making Every Event a Celebration!
-          </p>
+          {headtext && (
+            <p className={`text-3xl md:text-5xl font-bold font-playfair ${scrollCursor ? "":"mt-16"}`}>
+              {headtext}
+            </p>
+          )}
+          {
+            location && (
+              <p className="text-sm md:text-lg font-normal font-sans mt-4 md:mt-8">
+              {location}
+            </p>
+            )
+          }
           <div className="text-center flex justify-center items-center">
-            <Button
-              className="text-center mt-4 xl:mt-8 text-md lg:text-xl font-medium font-sans hover:bg-pink-600 w-[250px] md:w-[320px]"
-              spanColor="bg-pink-600"
-            >
-              Plan Your Next Event with us
-            </Button>
+            {button && (
+              <Button
+                className="text-center mt-4 xl:mt-8 text-md lg:text-xl font-medium font-sans hover:bg-pink-600 w-[250px] md:w-[320px]"
+                spanColor="bg-pink-600"
+              >
+                {button}
+              </Button>
+            )}
           </div>
           <div>
-            <Image
-              src="/scrollbanner.png"
-              width={32}
-              height={32}
-              alt="scroll"
-              style={{
-                position: "absolute",
-                marginLeft: "auto",
-                marginRight: "auto",
-                left: "0",
-                right: "0",
-                marginTop: "38px",
-              }}
-              className="animate-bounce"
-            />
+            {scrollCursor && (
+              <Image
+                src="/scrollbanner.png"
+                width={32}
+                height={32}
+                alt="scroll"
+                style={{
+                  position: "absolute",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  left: "0",
+                  right: "0",
+                  marginTop: "38px",
+                }}
+                className="animate-bounce"
+              />
+            )}
           </div>
         </div>
       </div>
-      <div className={`flex flex-row absolute z-20 h-screen w-full ${menu ? "flex": "hidden"}`}>
+      <div
+        className={`flex flex-row absolute z-20 h-screen w-full ${
+          menu ? "flex" : "hidden"
+        }`}
+      >
         <CgClose
           className="absolute top-5 right-5 lg:top-10 lg:right-20 text-2xl md:text-4xl text-white cursor-pointer"
           onClick={() => setMenu((prev) => !prev)}

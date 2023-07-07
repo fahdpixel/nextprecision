@@ -3,7 +3,7 @@ import React from "react";
 import Wrapper from "@/components/Wrapper";
 import ReactPlayer from "react-player/lazy";
 import Image from "next/image";
-import Button from "../Button";
+import Button from "@/components/Button";
 
 const ServiceDetails = () => {
   return (

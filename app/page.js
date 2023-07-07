@@ -11,10 +11,15 @@ import Testomonials from "@/components/Home/Testomonials";
 export default function Home() {
   return (
     <main>
-      <HomeBanner />
+      <HomeBanner
+        image={"/homebanner.png"}
+        button={"Plan Your Next Event with us"}
+        headtext={"Making Every Event a Celebration!"}
+        scrollCursor={true}
+      />
       <Accomplishment />
       <ServiceDetails />
-      <Testomonials/>
+      <Testomonials />
       <Unique />
       <GallerySlider />
       <BrandsTrustUs />
