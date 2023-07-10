@@ -139,7 +139,7 @@ const HomeBanner = ({ image, button, headtext, location, scrollCursor }) => {
           <Link href="/" className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
             Home
           </Link>
-          <Link href="/WhoWeAre" className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
+          <Link href="/whoweare" className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
             Who We Are
           </Link>
           <p className="cursor-pointer font-semibold md:text-3xl text-2xl  hover:text-white/[0.5] text-white">
