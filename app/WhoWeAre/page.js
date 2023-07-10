@@ -8,7 +8,7 @@ import CSRActivities from "@/components/WhoWeAre/CSRActivities";
 import React from "react";
 import Image from "next/image";
 
-const WhoWeAre = () => {
+const Page = () => {
   return (
     <>
       <HomeBanner
@@ -70,4 +70,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default Page;
