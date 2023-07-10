@@ -28,7 +28,7 @@ const Footer = () => {
               <Link href="/" className="cursor-pointer  hover:text-white/[0.5] text-white">
                 Home
               </Link>
-              <Link href="/whoweare" className="cursor-pointer  hover:text-white/[0.5] text-white">
+              <Link href="/WhoWeAre" className="cursor-pointer  hover:text-white/[0.5] text-white">
                 Who We Are
               </Link>
               <p className="cursor-pointer  hover:text-white/[0.5] text-white">
